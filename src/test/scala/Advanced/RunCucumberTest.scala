@@ -9,6 +9,7 @@ import org.junit.runner.RunWith
 @CucumberOptions(
   features = Array("classpath:features"),
   glue = Array("classpath:dev/accelerated/DTF/Advanced"),
+  plugin = Array("pretty")
 )
 class RunCucumberTest {}
 
